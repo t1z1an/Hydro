@@ -1,3 +1,4 @@
+//In Gedenken an Chris
 client.on("message", (message) => {
 	if(message.author.bot) return;
 	if(message.content.includes("hydro")) message.react("EMOTE_ID")
